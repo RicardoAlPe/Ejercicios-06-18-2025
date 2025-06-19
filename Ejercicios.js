@@ -13,11 +13,11 @@ let input = prompt("ingrese los numeros separados por espacios:");
 let numeros = input.split(" ").map(Number);
 let menor = Math.min(...numeros);
 
-console.log(`El numero menor es: ${menor}`);
+console.log(`el numero menor es: ${menor}`);
 
 // ejercicio 3 
 
-let input = prompt("ingrese los nnmeros separados por espacios:");
+let input = prompt("ingrese los numeros separados por espacios:");
 let numeros = input.split(" ").map(Number);
 let suma = numeros.reduce((acc, num) => acc + num, 0);
 
